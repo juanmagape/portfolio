@@ -1,0 +1,58 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    opacity: 0; /* Inicialmente ocultamos el cuerpo */
+            transition: opacity 0.5s ease-in-out; /* Transición suave de opacidad */
+}
+
+
+
+.max-width {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.font {
+    font-family: "Arimo", sans-serif;
+}
+
+.navbar {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Ajustes adicionales para secciones */
+section {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+/* Estilos específicos para los textos dentro de las secciones */
+section h2 {
+    color: inherit;
+}
+
+.separacion {
+    margin-top: 300px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-bottom-center {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 20px); /* 100% width minus left and right margins */
+    max-width: 984px;
+    margin-left: 10px;  /* Adding left margin */
+    margin-right: 13px; /* Adding right margin */
+}
+
+.max-card {
+    max-width: 300px;
+}
