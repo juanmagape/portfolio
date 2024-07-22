@@ -56,3 +56,7 @@ section h2 {
 .max-card {
     max-width: 300px;
 }
+
+.max-cert {
+    max-width: 900px;
+}
