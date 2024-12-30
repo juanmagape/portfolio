@@ -1,7 +1,7 @@
 body {
     transition: background-color 0.3s, color 0.3s;
-    opacity: 0; /* Inicialmente ocultamos el cuerpo */
-            transition: opacity 0.5s ease-in-out; /* Transición suave de opacidad */
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
 }
 
 
@@ -19,15 +19,11 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-/* Ajustes adicionales para secciones */
 section {
     transition: background-color 0.3s, color 0.3s;
 }
 
 
-
-/* Estilos específicos para los textos dentro de las secciones */
 section h2 {
     color: inherit;
 }
@@ -47,10 +43,10 @@ section h2 {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 20px); /* 100% width minus left and right margins */
+    width: calc(100% - 20px); 
     max-width: 984px;
-    margin-left: 10px;  /* Adding left margin */
-    margin-right: 13px; /* Adding right margin */
+    margin-left: 10px; 
+    margin-right: 13px; 
 }
 
 .max-card {
@@ -59,4 +55,14 @@ section h2 {
 
 .max-cert {
     max-width: 900px;
+}
+
+.opa-hover:hover {
+    opacity: 80%;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.widthtext {
+    max-width: 95%;
 }
